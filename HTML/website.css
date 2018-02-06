@@ -1,8 +1,33 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('tools.jpg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 .serviceboxs{
     display: flex;
     flex-wrap: wrap;
-    border: 2px;
 }
 .links{
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+.logo{
+    height: 100px;
+    width: 450px;
+}
+.services{
+   border: 2px;
+}
+.selection{
 
+}
+#hours{
+    right: 30px;
+    position: absolute;
 }
