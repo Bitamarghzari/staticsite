@@ -5,14 +5,33 @@
     <link rel="stylesheet" href="website.css">
 </head>
 <body>
-<div>
-    <img src="../IMAGES/truevalue.png" alt="True Value Logo" class="logo"></div>
-<div class="links">
-    <a href="feedback.html" >Contact Info</a>
-    <a href="menu.html">Menu</a>
-    <a href="hours.html">Some page</a>
-    <a href="location.html">some other page</a>
-    <a href="index.html">Home Page</a>
-</div>
+
+    <div>
+        <img src="../IMAGES/truevalue.png" alt="True Value Logo" class="logo">
+    </div>
+    <div class="links">
+        <a href="feedback.html" >Feedback</a>
+        <a href="services.html">Services</a>
+        <a href="hours.html">Hours</a>
+        <a href="location.html">Location</a>
+        <a href="index.html">Home Page</a>
+    </div>
+
+<span>124 N Highway 198 Santaquin, Utah 84655<br>
+        801-754-9000</span>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(39.977226, -111.768759),
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGD8vXPdNS74g-PHCw5h3dMlS36_PfZd4&callback=myMap"></script>
 </body>
 </html>
