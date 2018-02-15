@@ -5,32 +5,34 @@
     <link rel="stylesheet" href="website.css">
 </head>
 <body>
-<div>
-    <img src="../IMAGES/truevalue.png" alt="True Value Logo" class="logo"></div>
-
-<div class="links">
-    <a href="feedback.html" >Feedback</a>
-    <a href="services.html">Services</a>
-    <a href="hours.html">Hours</a>
-    <a href="location.html">Location</a>
-    <a href="index.html">Home Page</a>
-</div>
+    <div class="container">
+        <div class="header">
+            <img src="../IMAGES/truevalue.png" alt="True Value Logo" class="logo">
+            <div class="links">
+                <a href="feedback.html" >Feedback</a>
+                <a href="services.html">Services</a>
+                <a href="hours.html">Hours</a>
+                <a href="location.html">Location</a>
+                <a href="index.html">Home Page</a>
+            </div>
+        </div>
 <div class="contactus">
     <p>Have questions? Fill this out to ask us.</p>
 </div>
-<form method="post">
-    <div>
-        <label for="firstName">First Name:</label> <input id=firstName type="text">
+    <form method="post">
+        <div>
+            <label for="firstName">First Name:</label> <input id=firstName type="text">
+        </div>
+        <div>
+            <label for="email">Email Address:</label><input id="email" type="email">
+        </div>
+        <div>
+            <label for="question">Enter your question here:</label><textarea id="question" cols="30" rows="6"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
     </div>
-    <div>
-        <label for="email">Email Address:</label><input id="email" type="email">
-    </div>
-    <div>
-        <label for="question">Enter your question here:</label><textarea id="question" cols="30" rows="6"></textarea>
-    </div>
-    <div>
-        <input type="submit">
-    </div>
-</form>
+    </form>
 </body>
 </html>

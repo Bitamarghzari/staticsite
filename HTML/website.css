@@ -8,6 +8,11 @@ body{
     width: 100%;
     position: absolute;
 }
+.header{
+    background-color: white;
+    top: 0;
+    left: 0;
+}
 .serviceboxs{
     display: flex;
     flex-wrap: wrap;
@@ -27,14 +32,7 @@ body{
 .selection{
 
 }
-#hours{
+#hours {
     right: 30px;
     position: absolute;
-}
-.header{
-    position: absolute;
-    top: 0;
-    background-color: white;
-    height: 50px;
-    width: 100%;
 }
